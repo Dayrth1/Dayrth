@@ -3,9 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="converter-style.css" rel="stylesheet" />
     <title>Converter</title>
   </head>
   <body>
-    <a href="../index.html"><button id="home-button">Home</button></a>
+    <h1>Converter</h1>
+    <div class="input-div">
+      <form class="input-form">
+        <input class="input-box" type="number" />
+        <button type="button" class="btn g-o">gm to Oz</button>
+        <button type="button" class="btn o-g">Oz to gm</button>
+        <p class="answer-text">
+          Type your value in to the box above and click apprpriate the button to
+          convert.
+        </p>
+        <h1 class="answer"></h1>
+      </form>
+    </div>
+    <a href="../index.html"><button class="btn home-button">Home</button></a>
+    <script src="converterScript.js"></script>
   </body>
 </html>
