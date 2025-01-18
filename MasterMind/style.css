@@ -1,0 +1,321 @@
+body {
+  background-color: rgb(182, 211, 188);
+}
+.game {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.board {
+  width: 410px;
+}
+/* each board row */
+.section {
+  position: absolute;
+  width: 400px;
+  z-index: 9;
+}
+/* blanking pannel hiding code */
+.blank {
+  top: 50px;
+  z-index: 11;
+}
+/* all buttons */
+.btn {
+  position: absolute;
+  background: none;
+  border: none;
+}
+/* colour ball buttons */
+.btns {
+  position: absolute;
+  text-align: center;
+  width: 400px;
+  top: 630px;
+  left: -45px;
+}
+/* current row indicator arrow */
+.arrow {
+  position: absolute;
+  width: 50px;
+  left: 420px;
+}
+.arrow-1 {
+  top: 150px;
+}
+.arrow-2 {
+  top: 230px;
+}
+.arrow-3 {
+  top: 310px;
+}
+.arrow-4 {
+  top: 390px;
+}
+.arrow-5 {
+  top: 470px;
+}
+.arrow-6 {
+  top: 550px;
+}
+/* positioning for each colour ball button */
+.red-btn {
+  left: 10px;
+}
+.blue-btn {
+  left: 90px;
+}
+.green-btn {
+  left: 170px;
+}
+.yellow-btn {
+  left: 250px;
+}
+.orange-btn {
+  left: 330px;
+}
+.purple-btn {
+  left: 410px;
+}
+/* sizing for all balls and ball buttons */
+.ball {
+  width: 70px;
+  z-index: 10;
+}
+/* v-pos for all each row */
+.code-sec {
+  top: 50px;
+}
+.decode-sec1 {
+  top: 130px;
+}
+.decode-sec2 {
+  top: 210px;
+}
+.decode-sec3 {
+  top: 290px;
+}
+.decode-sec4 {
+  top: 370px;
+}
+.decode-sec5 {
+  top: 450px;
+}
+.decode-sec6 {
+  top: 530px;
+}
+/* code ball positions */
+.code-ball-1 {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+}
+.code-ball-2 {
+  position: absolute;
+  top: 55px;
+  left: 82px;
+}
+.code-ball-3 {
+  position: absolute;
+  top: 55px;
+  left: 154px;
+}
+.code-ball-4 {
+  position: absolute;
+  top: 55px;
+  left: 226px;
+}
+/* balls in colum */
+.col-1 {
+  position: absolute;
+  left: 10px;
+}
+.col-2 {
+  position: absolute;
+  left: 82px;
+}
+.col-3 {
+  position: absolute;
+  left: 154px;
+}
+.col-4 {
+  position: absolute;
+  left: 226px;
+}
+/* row 1 balls */
+.ball-row-1 {
+  position: absolute;
+  top: 135px;
+}
+/* row 2 balls */
+.ball-row-2 {
+  position: absolute;
+  top: 215px;
+}
+/* row 3 balls */
+.ball-row-3 {
+  position: absolute;
+  top: 295px;
+}
+/* row 4 balls */
+.ball-row-4 {
+  position: absolute;
+  top: 375px;
+}
+/* row 5 balls */
+.ball-row-5 {
+  position: absolute;
+  top: 455px;
+}
+/* row 6 balls */
+.ball-row-6 {
+  position: absolute;
+  top: 535px;
+}
+/* pegs */
+.peg {
+  width: 25px;
+  z-index: 12;
+}
+
+.row-1-peg-1 {
+  position: absolute;
+  top: 143px;
+  right: 52px;
+}
+.row-1-peg-2 {
+  position: absolute;
+  top: 143px;
+  right: 20px;
+}
+.row-1-peg-3 {
+  position: absolute;
+  top: 174px;
+  right: 52px;
+}
+.row-1-peg-4 {
+  position: absolute;
+  top: 174px;
+  right: 20px;
+}
+
+.row-2-peg-1 {
+  position: absolute;
+  top: 223px;
+  right: 52px;
+}
+.row-2-peg-2 {
+  position: absolute;
+  top: 223px;
+  right: 20px;
+}
+.row-2-peg-3 {
+  position: absolute;
+  top: 254px;
+  right: 52px;
+}
+.row-2-peg-4 {
+  position: absolute;
+  top: 254px;
+  right: 20px;
+}
+
+.row-3-peg-1 {
+  position: absolute;
+  top: 303px;
+  right: 52px;
+}
+.row-3-peg-2 {
+  position: absolute;
+  top: 303px;
+  right: 20px;
+}
+.row-3-peg-3 {
+  position: absolute;
+  top: 335px;
+  right: 52px;
+}
+.row-3-peg-4 {
+  position: absolute;
+  top: 335px;
+  right: 20px;
+}
+
+.row-4-peg-1 {
+  position: absolute;
+  top: 383px;
+  right: 52px;
+}
+.row-4-peg-2 {
+  position: absolute;
+  top: 383px;
+  right: 20px;
+}
+.row-4-peg-3 {
+  position: absolute;
+  top: 414px;
+  right: 52px;
+}
+.row-4-peg-4 {
+  position: absolute;
+  top: 414px;
+  right: 20px;
+}
+
+.row-5-peg-1 {
+  position: absolute;
+  top: 463px;
+  right: 52px;
+}
+.row-5-peg-2 {
+  position: absolute;
+  top: 463px;
+  right: 20px;
+}
+.row-5-peg-3 {
+  position: absolute;
+  top: 494px;
+  right: 52px;
+}
+.row-5-peg-4 {
+  position: absolute;
+  top: 494px;
+  right: 20px;
+}
+
+.row-6-peg-1 {
+  position: absolute;
+  top: 543px;
+  right: 52px;
+}
+.row-6-peg-2 {
+  position: absolute;
+  top: 543px;
+  right: 20px;
+}
+.row-6-peg-3 {
+  position: absolute;
+  top: 574px;
+  right: 52px;
+}
+.row-6-peg-4 {
+  position: absolute;
+  top: 574px;
+  right: 20px;
+}
+
+/* submit button */
+.submit-btn {
+  position: absolute;
+  width: 175px;
+  top: 100px;
+  left: 155px;
+}
+.submit-btn-img {
+  width: 175px;
+  top: 50px;
+}
+/* .hidden {
+  display: none;
+} */

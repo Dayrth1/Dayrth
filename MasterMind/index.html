@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <!-- Board -->
+      <div class="board">
+        <!-- code row -->
+        <div>
+          <img src="images/Code_Section.PNG" class="section code-sec" />
+          <div><img src="images/Arrow.PNG" class="arrow arrow-1 hidden" /></div>
+          <div class="balls">
+            <!-- First code ball -->
+            <img src="images/Red.png" class="ball code-ball-1 hidden" />
+
+            <!-- Second code ball -->
+            <img src="images/Red.png" class="ball code-ball-2 hidden" />
+
+            <!-- Third code ball -->
+            <img src="images/Red.png" class="ball code-ball-3 hidden" />
+
+            <!-- Fourth code ball -->
+            <img src="images/Red.png" class="ball code-ball-4 hidden" />
+          </div>
+        </div>
+        <!-- decode rows -->
+        <!-- row-1 -->
+        <div>
+          <img src="images/Decode_Section.PNG" class="section decode-sec1" />
+          <div class="balls">
+            <!-- row 1 ball 1 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-1 ball col-1 ball-row-1-1 hidden"
+            />
+            <!-- row 1 ball 2 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-1 col-2 ball-row-1-2 hidden"
+            />
+            <!-- row 1 ball 3 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-1 col-3 ball-row-1-3 hidden"
+            />
+            <!-- row 1 ball 4 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-1 col-4 ball-row-1-4 hidden"
+            />
+          </div>
+          <!-- row 1 pegs -->
+          <div class="pegs">
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-1-peg-1 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-1-peg-2 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-1-peg-3 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-1-peg-4 hidden" />
+            </div>
+          </div>
+        </div>
+        <!-- row 2 -->
+        <div>
+          <img src="images/Decode_Section.PNG" class="section decode-sec2" />
+          <div><img src="images/Arrow.PNG" class="arrow arrow-2 hidden" /></div>
+          <div class="balls">
+            <!-- row 2 ball 1 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-2 col-1 ball-row-2-1 hidden"
+            />
+            <!-- row 2 ball 2 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-2 col-2 ball-row-2-2 hidden"
+            />
+            <!-- row 2 ball 3 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-2 col-3 ball-row-2-3 hidden"
+            />
+            <!-- row 2 ball 4 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-2 col-4 ball-row-2-4 hidden"
+            />
+          </div>
+          <!-- row 2 pegs -->
+          <div class="pegs">
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-2-peg-1 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-2-peg-2 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-2-peg-3 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-2-peg-4 hidden" />
+            </div>
+          </div>
+        </div>
+        <!-- row 3 -->
+        <div>
+          <img src="images/Decode_Section.PNG" class="section decode-sec3" />
+          <div><img src="images/Arrow.PNG" class="arrow arrow-3 hidden" /></div>
+          <div class="balls">
+            <!-- row 3 ball 1 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-3 col-1 ball-row-3-1 hidden"
+            />
+            <!-- row 3 ball 2 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-3 col-2 ball-row-3-2 hidden"
+            />
+            <!-- row 3 ball 3 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-3 col-3 ball-row-2-3 hidden"
+            />
+            <!-- row 3 ball 4 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-3 col-4 ball-row-3-4 hidden"
+            />
+          </div>
+          <!-- row 3 pegs -->
+          <div class="pegs">
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-3-peg-1 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-3-peg-2 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-3-peg-3 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-3-peg-4 hidden" />
+            </div>
+          </div>
+        </div>
+        <!-- row 4 -->
+        <div>
+          <div>
+            <img src="images/Decode_Section.PNG" class="section decode-sec4" />
+          </div>
+          <div><img src="images/Arrow.PNG" class="arrow arrow-4 hidden" /></div>
+          <div class="balls">
+            <!-- row 4 ball 1 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-4 ball col-1 ball-row-4-1 hidden"
+            />
+            <!-- row 4 ball 2 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-4 col-2 ball-row-4-2 hidden"
+            />
+            <!-- row 4 ball 3 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-4 col-3 ball-row-4-3 hidden"
+            />
+            <!-- row 4 ball 4 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-4 col-4 ball-row-4-4 hidden"
+            />
+          </div>
+          <!-- row 4 pegs -->
+          <div class="pegs">
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-4-peg-1 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-4-peg-2 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-4-peg-3 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-4-peg-4 hidden" />
+            </div>
+          </div>
+        </div>
+        <!-- row 5 -->
+        <div>
+          <div>
+            <img src="images/Decode_Section.PNG" class="section decode-sec5" />
+          </div>
+          <div><img src="images/Arrow.PNG" class="arrow arrow-5 hidden" /></div>
+          <div class="balls">
+            <!-- row 5 ball 1 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-5 ball col-1 ball-row-5-1 hidden"
+            />
+            <!-- row 5 ball 2 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-5 col-2 ball-row-5-2 hidden"
+            />
+            <!-- row 5 ball 3 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-5 col-3 ball-row-5-3 hidden"
+            />
+            <!-- row 5 ball 4 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-5 col-4 ball-row-5-4 hidden"
+            />
+          </div>
+          <!-- row 5 pegs -->
+          <div class="pegs">
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-5-peg-1 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-5-peg-2 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-5-peg-3 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-5-peg-4 hidden" />
+            </div>
+          </div>
+        </div>
+        <!-- row 6 -->
+        <div>
+          <div>
+            <img src="images/Decode_Section.PNG" class="section decode-sec6" />
+          </div>
+          <div><img src="images/Arrow.PNG" class="arrow arrow-6 hidden" /></div>
+          <div class="balls">
+            <!-- row 6 ball 1 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-6 ball col-1 ball-row-6-1 hidden"
+            />
+            <!-- row 6 ball 2 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-6 col-2 ball-row-6-2 hidden"
+            />
+            <!-- row 6 ball 3 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-6 col-3 ball-row-6-3 hidden"
+            />
+            <!-- row 6 ball 4 -->
+            <img
+              src="images/Red.png"
+              class="ball ball-row-6 col-4 ball-row-6-4 hidden"
+            />
+          </div>
+          <!-- row 6 pegs -->
+          <div class="pegs">
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-6-peg-1 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-6-peg-2 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-6-peg-3 hidden" />
+            </div>
+            <div>
+              <img src="images/Black_Peg.PNG" class="peg row-6-peg-4 hidden" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="images/Blanking_Plate.PNG" class="section blank hidden" />
+        </div>
+      </div>
+
+      <!-- buttons -->
+      <div class="btns">
+        <button class="btn red-btn">
+          <img src="images/Red.PNG" class="ball" />
+        </button>
+
+        <button class="btn blue-btn">
+          <img src="images/Blue.PNG" class="ball" />
+        </button>
+
+        <button class="btn green-btn">
+          <img src="images/Green.PNG" class="ball" />
+        </button>
+
+        <button class="btn yellow-btn">
+          <img src="images/Yellow.PNG" class="ball" />
+        </button>
+
+        <button class="btn orange-btn">
+          <img src="images/Orange.PNG" class="ball" />
+        </button>
+
+        <button class="btn purple-btn">
+          <img src="images/Purple.PNG" class="ball" />
+        </button>
+        <!-- Submit button -->
+        <button class="btn submit-btn">
+          <img src="images/Submit_Btn.PNG" class="submit-btn-img" />
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
